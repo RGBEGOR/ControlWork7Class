@@ -1,0 +1,502 @@
+@import url(fonts.css);
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a {
+text-decoration: none;
+
+}
+body {
+background: url('../img/Medival.jpeg')no-repeat center/cover fixed;
+
+}
+
+    .test{
+        position: fixed;
+        top: 100px;
+        right: 100px;
+    }
+    #check{
+        display: none;
+    }
+    .span{
+    display: block;
+    width: 50px;
+    height: 25px;
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    position: relative;
+    }
+    .span::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    background: red;
+
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    transition: .5s;
+    }
+
+    #check:checked ~ label .span::before{
+    left: 25px;
+    background: greenyellow;
+    } 
+
+
+
+
+ul{
+list-style: none;
+}
+.container{
+width: 1100px;
+margin: 0 auto;
+padding: 0 15px;
+background: rgb(255, 255, 255);
+}
+.nav{
+padding-top: 15px;
+padding-bottom: 15px;
+background: rgb(255, 255, 255);
+}
+.im{
+
+width: 60px;
+height: 50px;
+}
+.header__list{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 100px;
+
+}
+.header__li{
+font-size: 20px;
+font-family:'CormorantGaramond-Bold';
+font-weight: 700;
+color: rgb(20, 0, 196);
+
+}
+
+.context__intro{
+text-align: center;
+}
+.h1{
+padding-top: 30px;
+padding-bottom: 35px;
+color: rgb(135, 91, 4); 
+font-size: 35px;
+font-family:'CormorantGaramond-Bold';
+font-weight: 700;
+
+}
+
+.Lap{
+margin-top: 30px;
+margin-bottom: 30px;
+text-align: center;
+width: 720px;
+height: 509px;
+display: flex;
+text-align: center;
+justify-content: center;
+
+}
+
+.Plansh{
+display: none;
+
+}
+
+.Smartphone{
+display: none;
+}
+
+
+
+.screen{
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+.arheologi__intro-1{
+display: flex;
+flex-direction: column;
+gap: 30px;
+margin-left: 50px;
+margin-right: 50px;
+padding-bottom: 50px;
+padding-top: 50px;
+
+}
+.arheologi__item{
+display: flex;
+justify-content: space-between;
+gap: 10px;
+align-items: center;
+}
+.arrow{
+width: 50px;
+height: 50px;
+
+}
+
+.info{
+display: flex;
+font-family:'CormorantGaramond-Bold';
+font-size: 18px;
+text-align: center;
+border: 3px solid orange;
+padding-left:10px;
+padding-right: 10px;
+padding-top:10px ;
+padding-bottom: 10px;
+background: rgb(249, 227, 187);
+}
+.arheo{
+font-family:'CormorantGaramond-Bold';
+font-size: 18px;
+border-radius: 10px solid orange;
+border: 3px solid orange;
+padding-left:17px;
+padding-right: 17px;
+padding-top:17px ;
+padding-bottom: 17px;
+background: rgb(249, 227, 187);
+}
+
+
+.arheo2{
+font-family:'CormorantGaramond-Bold';
+font-size: 18px;
+border-radius: 10px solid orange;
+border: 3px solid orange;
+padding-left:30px;
+padding-right: 30px;
+padding-top:30px ;
+padding-bottom: 30px;
+background: rgb(249, 227, 187);
+}
+.arheo1{
+font-family:'CormorantGaramond-Bold';
+font-size: 18px;
+border-radius: 10px solid orange;
+border: 3px solid orange;
+padding-left:17px;
+padding-right: 17px;
+padding-top:17px ;
+padding-bottom: 17px;
+background: rgb(249, 227, 187);
+}
+
+
+.midle__content2{
+position: relative;
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 600px;
+padding-bottom: 150px;
+margin-left: 470px;
+padding-top: 50px;
+
+}
+.text1{
+font-family:'CormorantGaramond-Bold';
+font-size: 20px;
+font-weight: 400;
+padding-left: 50px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 5px;
+color: white;
+background-color: rgb(20, 0, 196);
+}
+    
+.text2{
+font-family:'CormorantGaramond-Bold';
+font-size: 20px;
+font-weight: 400;
+padding-left: 50px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 5px;
+    
+}
+    
+.arxs{
+position: absolute;
+left: -350px;
+top: 50px;
+    
+    
+}
+.arx{
+width: 300px;
+height: 500px;
+}
+.container__persons{
+width: 1100px;
+margin: 0 auto;
+padding: 0 15px;
+background: rgb(255, 255, 255); 
+padding-bottom: 50px;
+
+
+}
+
+.Herodotus{
+padding: 15px 15px 15px 15px;
+width: 350px;
+height: 400px;
+}
+.Herodotus__text{
+font-family:'CormorantGaramond-Bold';
+font-size: 18px;
+padding: 15px 15px 15px 15px;
+
+}
+
+
+.pros-buls{
+width: 400px;
+height: 300px;    
+}   
+
+.neander{
+width: 600px;
+height: 500px;
+}
+
+    
+.arheologi__intro{
+display: flex;
+flex-direction: column;
+gap: 30px;
+margin-left: 50px;
+margin-right: 50px;
+padding-bottom: 150px;
+padding-top: 50px;
+    
+}
+.arheologi__item{
+display: flex;
+justify-content: space-between;
+gap: 10px;
+align-items: center;
+}
+
+
+
+.arrow{
+width: 50px;
+height: 50px;
+    
+}
+    
+.info{
+display: flex;
+font-family:'CormorantGaramond-Bold';
+font-size: 18px;
+text-align: center;
+border: 3px solid rgb(20, 0, 196);
+padding-left:10px;
+padding-right: 10px;
+padding-top:10px ;
+padding-bottom: 10px;
+background: rgb(251, 235, 184);
+color:  rgb(135, 91, 4);
+}
+.arheo{
+font-family:'CormorantGaramond-Bold';
+font-size: 18px;
+border-radius: 10px solid rgb(20, 0, 196);
+border: 3px solid rgb(20, 0, 196);
+padding-left:17px;
+padding-right: 17px;
+padding-top:17px ;
+padding-bottom: 17px;
+background: rgb(251, 235, 184);
+color: rgb(135, 91, 4);
+}
+    
+    
+.arheo2{
+font-family:'CormorantGaramond-Bold';
+font-size: 18px;
+border-radius: 10px solid rgb(20, 0, 196);
+border: 3px solid rgb(20, 0, 196);
+padding-left:30px;
+padding-right: 30px;
+padding-top:30px ;
+padding-bottom: 30px;
+background: rgb(251, 235, 184);
+color: rgb(135, 91, 4);
+}
+.arheo1{
+font-family:'CormorantGaramond-Bold';
+font-size: 18px;
+border-radius: 10px solid rgb(20, 0, 196);
+border: 3px solid rgb(20, 0, 196);
+padding-left:17px;
+padding-right: 17px;
+padding-top:17px ;
+padding-bottom: 17px;
+background: rgb(251, 235, 184);
+color: rgb(135, 91, 4);
+}
+
+.footer{
+background: white;
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+.footer__list{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 100px;
+        
+}
+.footer__li{
+font-size: 20px;
+font-family:'CormorantGaramond-Bold';
+font-weight: 700;
+color: rgb(135, 91, 4);       
+}
+
+
+.wrapper
+{
+width: 100%;
+height: 100%;
+display: table;
+width: 100%;
+height: 100%;	
+}
+
+
+.quiz-frame
+{
+border: 0;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.quiz__head
+{
+font-size: 20pt;
+margin-bottom: 50px;
+font-family:'CormorantGaramond-Bold';
+
+}
+
+.intro{
+font-size: 30px;
+font-family:'CormorantGaramond-Bold';
+color: rgb(20, 0, 196);
+text-align: center;
+}
+
+.head__content 
+{
+padding: 5px;
+margin-top: 50px;
+text-align: center;	
+}
+
+
+
+.quiz__footer 
+{
+padding-top: 50px;
+padding-bottom: 50px;
+
+bottom: 0;
+display: block;
+width: 100%;
+}
+
+.footer__content 
+{
+text-align: center;
+padding: 5px;
+}
+
+.button
+{
+border: 0;
+border-radius: 5px;
+background: rgb(20, 0, 196);
+color: #ffffff;
+padding: 10px 25px;
+width: 40%;
+font-size: 18pt;
+display: block;
+margin: 5px auto;
+cursor: pointer;
+font-family:'CormorantGaramond-Bold';
+
+}
+
+.button_wrong 
+{
+	background: #EB6465;
+}
+
+.button_correct
+{
+	background: #5EB97D;
+}
+
+.button_passive
+{
+	background: rgb(20, 0, 196);
+}
+.cat{
+width: 350px;
+height: 350px;
+
+}
+
+.homework__content{
+    padding: 15px 15px 15px 15px;
+    border-color: red;
+    border: 3px solid rgb(160, 52, 28);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: rgb(61, 132, 255);
+    }
+    .Expl-1{
+    font-size: 20px;
+    font-family:'CormorantGaramond-Bold';
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+ text-align: center;
+      
+    }
+        
+    .Exes-2{
+    font-size: 20px;
+    font-family:'CormorantGaramond-Bold';
+    color: rgb(255, 255, 255);
+    }
+
+
+
+
+
+
+
+
+    
